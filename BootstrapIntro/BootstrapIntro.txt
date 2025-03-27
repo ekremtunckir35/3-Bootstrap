@@ -1,0 +1,48 @@
+Bootstrap nedir?
+Bootstrap bir css kutuphanesidir.
+Responsive web sayfalari olusturmak icin kullanilan,icinde hazir html,css ve javascript kutuphaneleri iceren ucretsiz bir framework'tur.(Interwiew)
+framework-->bazi seyleri hazir olrak veren bir yapidir.
+Bootstrap temel amac--->responsive web sayfalari olusturmaktir.
+## Neden Bootstrap
+   -Responsive destegi saglar
+   #Hazir stiller ve componentler sunar.
+   #Ogrenmesi ve uygulamasi kolay
+   #Genis bir tarayici destegi var.
+   #Ucretsiz ve acik kaynak
+   #Ozellestirilebilir
+   #Dokumantasyon destegi
+   #Normalizing yapar.
+--Normalizing nedir? --->Her tarayicinin HTML taglarini render ederken kullandigi default degerleri vardir.Bunlar tarayicilar arasinda farklilik gosterir.
+Font-size,color,padding,margin gibi degerlerin tum tarayicilarda standart olmasini saglar.
+
+----------------------------------------------------------------------------------
+
+Bootstrap Kurulumu 
+
+--Bootstrap bir web sayfasina iki sekilde eklenebilir.
+
+1-CDN kullanim -->CDN sunuculara referans verilerek kullanilir.
+                  Sitenin kaynak kullanimi azaltilmis olur.
+                  Daha kolay eklenir.
+                Link aliyoruz ekliyoruz.
+2-Local Kullanim --->
+Dogrudan bootstrap dosyalarini alip,kendi projemizin icerisine koyuyoruz.Buna local kullanim denir.
+-Web sitesinin icine yerlestirerek kullanilir.
+-Tasarim asamasinda offline calisabilir.
+-Dosyalarin icinde degisiklik yapilabilir.
+
+Bootstrap Doc.Sayfasinda 
+-Getting Started --> Ayarlarla ilgili bolumdur.
+-Costomize ----> Sitenin ozellestirilmesi ile ilgili bolumdur.
+-Layout ------->Responsive ile ilgili hersey buradadir.
+-Content ------>Yazi,resim,tablolarla ilgili bolumdur.
+-Forms -------->Form olsturmakla ilgili bolumdur.
+-Componentler --->Bilesenler
+-Helpers -->Renklerle ilgili bolumdur.
+-Utilities--> 
+-------------------------------------
+Bootstrap Kullanimi 
+-Bootstrap'in hazir classlari kullnanilarak web sayfasinda bicimlendirme islemleri yapilabilir.Hazir class uzerine kurulur.Hersey class yazmaktir.
+-
+
+
