@@ -1,0 +1,49 @@
+-GRID -->denilince aklimiza 12 tane izgara gelmeli.Yani bir izgarayi 12 ye boluyor.
+Bootstrap'te flex kullnilarak hazirlanmisa 12'lik izgara yapisi bulunur.Responsive tasarimlar bu izgara uzerine olusturulur.
+ROW class'i flex ozelligine sahiptir.
+izgarayi olusturmak icin <div class="container">
+                          <div class="row">
+                        <div class ="col">1</div>
+                        ....
+                        <div class="col">12</div>
+                        </div>
+ seklinde  yapilir.
+
+ GRID olusturan 3 tane yapi var.
+           1-container
+           2-col
+           3-row
+container -->tasiyicidir.En distadir.Icinde birden fazla row olan tasiyicidir.
+Col classi ile bir satira sigdigi kadar hucre eklenebilir.  
+Hucre genislikleri birbirine esit olur.      
+genislik %100
+sagdan ve soldan paddingi var
+margin-left ve right ise autodur.Yanidiv leri ya da blok elemanlari ortalamak icin kullanilir.
+container dendiginde soldan ve sagdan ortalanan bir tasiyici,soldan sagdan padding degerleri olan aklimiza gelmeli.
+
+ROW ---> Satir demektir,flex yapisindadir..Row larin childlarina uygulanir.
+COL -->Satir icindeki hucreler demektir.Kolon
+
+
+INTERVIEW-->BOOTSTRAPDA GRID SISTEMI NEDIR?
+            Grid sistemi satirlari mantiksal olarak  12 esit parcaya bolen,istedigimiz elemani istedigimiz yerlere yerlestirmeyi saglayan bir yapidir.
+----------------------------
+GRID CONTAINER
+-Fixed Layout
+- Sol ve sag kenardan belli oranlarda bosluk birakacak sekilde bir tasiyici olusturur.
+- Soldan ve sagdan bosluklar birakir.
+-Kenarlarda bosluk olur.
+
+-Container-fluid 
+-Soldan ve sagdan bosluk kalmayacak sekilde bir tasiyici olusturur.Tam satiri kaplar.
+
+col-x (yani col-5 gibi) ifadesi ile olusturulan hucrelerin ne kadar yer kapladigina karar veririz.
+col-auto ile hucre genisligi,hucredeki icerigin boyutuna esitlenir.Hucrenin icindeki eleman ne kadar yer kaplarsa hucreyi o kadarlik bir boyuta getirir.
+
+-----------------------------------------------------------------------
+row lar flex ozelligine sahiptir.
+Justify-content,align-center vb..gibi  flex yapilarina ait ozelliklerini kullanabiliriz.
+
+
+
+
