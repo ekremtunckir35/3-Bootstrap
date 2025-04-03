@@ -1,0 +1,51 @@
+.card-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.tik-isareti {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.card-baslik {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.silver-card {
+    border-top: 5px solid silver;
+}
+
+.gold-card {
+    border-top: 5px solid gold;
+}
+
+.platinum-card {
+    border-top: 5px solid platinum;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icons i {
+    font-size: 24px;
+}

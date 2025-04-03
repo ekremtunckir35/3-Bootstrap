@@ -1,0 +1,13 @@
+p:padding
+m:margin 
+t : top 
+b : bottom  
+s : start 
+e : end 
+
+x : start & end  ----> yatay 
+y : top & bottom ----> dikey 
+
+0-6 -->mesafe 
+auto -->margin icin 
+
